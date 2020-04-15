@@ -13,6 +13,8 @@
 # Newspaper parser
 
 > A sample web tool to parse given newspaper resources.
+> 
+> Please check https://newspaper-parser.herokuapp.com to get familiar with an application.
 
 _**Note**: please take into account that it is built for demo purpose but not for actual usage._
 
@@ -31,9 +33,11 @@ _**Note**: please take into account that it is built for demo purpose but not fo
 
 ## Usage
 
-![Usage]()
+![Usage](usage.gif)
 
 ### Quick start
+
+Please open https://newspaper-parser.herokuapp.com and start using an application.
 
 ### Source code
 

@@ -3,7 +3,7 @@ from flask import Flask
 
 __author__: str = "Volodymyr Yahello"
 __email__: str = "vyahello@gmail.com"
-__version__: str = "0.0.0"
+__version__: str = "0.0.1"
 
 application: Flask = Flask(__name__)
 
