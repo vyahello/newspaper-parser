@@ -1,1 +1,1 @@
-web: gunicorn article:app
+web: python -m article

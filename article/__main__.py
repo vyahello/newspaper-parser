@@ -1,4 +1,5 @@
 """Represents executable entrypoint for `article` application."""
+import os
 from dataclasses import dataclass
 from article import application
 
@@ -8,7 +9,7 @@ class Server:
     """A server entrypoint setup."""
 
     host: str = "0.0.0.0"
-    port: int = 5001
+    port: int = int(os.environ.get("PORT", 5001))
     debug: bool = True
 
 

@@ -16,7 +16,6 @@
 
 _**Note**: please take into account that it is built for demo purpose but not for actual usage._
 
-
 ## Tools
 
 - python 3.6 | 3.7 | 3.8
@@ -42,6 +41,8 @@ _**Note**: please take into account that it is built for demo purpose but not fo
 git clone git@testhome:vyahello/newspaper-parser
 python -m article
 ```
+
+After, please open [0.0.0.0:5001](http://0.0.0.0:5001) endpoint.
 
 **[⬆ back to top](#newspaper-parser)**
 

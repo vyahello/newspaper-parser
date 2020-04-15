@@ -30,6 +30,10 @@ class _Content:
     keywords: str
     summary: str
 
+    def __len__(self) -> int:
+        """Returns count of items."""
+        return len(self.__dict__)
+
     def __iter__(self) -> Generator[Tuple[str, str], None, None]:
         """Returns iter_mapped content as a dictionary."""
         yield from self.__dict__.items()
@@ -77,4 +81,4 @@ class Article(AbstractStyle):
         traceback: Optional[TracebackType],
     ) -> None:
         """Exits from article."""
-        del self._article
+        del self
