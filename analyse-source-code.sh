@@ -39,7 +39,7 @@ check-pylint() {
 :<<DOC
     Runs "pylint" code analyser
 DOC
-    pretty-printer-box "pylint" && ( find ${PACKAGE} -type f -print0 -name "*.py" | xargs pylint )
+    pretty-printer-box "pylint" && ( find ${PACKAGE} -type f -name "*.py" | xargs pylint )
 }
 
 

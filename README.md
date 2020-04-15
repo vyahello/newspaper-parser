@@ -32,7 +32,7 @@ _**Note**: please take into account that it is built for demo purpose but not fo
 
 ## Usage
 
-![Usage](usage.gif)
+![Usage]()
 
 ### Quick start
 

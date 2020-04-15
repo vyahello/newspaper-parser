@@ -1,3 +1,3 @@
-"""Module contains executable entrypoint for an app."""
+"""Module contains executable entrypoint for an app (used for deployment e.g `heroku`)."""
 # pylint:disable=unused-import
-from article import app  # noqa: F401
+from article import application  # noqa: F401
