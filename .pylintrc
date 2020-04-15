@@ -18,7 +18,7 @@ persistent=yes
 # usually to register additional checkers.
 load-plugins=
 
-# Use multiple processes to speed up pylint.
+# Use multiple processes to speed up Pylint.
 jobs=5
 
 # Allow loading of arbitrary C extensions. Extensions are imported into the
@@ -52,7 +52,7 @@ confidence=
 # no Warning level messages displayed, use"--disable=all --enable=classes
 # --disable=W"
 
-disable=unnecessary-pass, bad-continuation
+disable=too-few-public-methods, unnecessary-pass, bad-continuation
 
 [REPORTS]
 
@@ -309,10 +309,10 @@ max-branches=12
 max-statements=50
 
 # Maximum number of parents for a class (see R0901).
-max-parents=7
+max-parents=8
 
 # Maximum number of attributes for a class (see R0902).
-max-attributes=7
+max-attributes=8
 
 # Minimum number of public methods for a class (see R0903).
 min-public-methods=1

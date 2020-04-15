@@ -15,7 +15,7 @@ remove-pycache() {
 :<<DOC
     Removes python cache directories
 DOC
-    ( find . -f -print0 -depth -name __pycache__ | xargs rm -r )
+    ( find . -depth -name __pycache__ | xargs rm -r )
 }
 
 
