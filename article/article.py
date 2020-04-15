@@ -3,8 +3,8 @@ from dataclasses import dataclass
 from types import TracebackType
 from typing import Generator, Optional, Sequence, Tuple, Type
 from xml.etree import ElementTree
-import newspaper
 from punish.style import AbstractStyle
+import newspaper
 
 
 def _to_single_line(sequence: Sequence[str], separator_as_forward: str = ", ") -> str:

@@ -27,4 +27,3 @@ pytest-clarity==0.3.0a0
 pytest-cov==2.8.1
 pytest-mock==3.0.0
 pytest-sugar==0.9.2
-flask==1.1.2
