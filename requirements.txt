@@ -8,7 +8,7 @@ enforce-pep8==0.0.3
 idna==2.9
 keyring==21.2.0
 pkginfo==1.5.0.1
-Pygments==2.6.1
+Pygments==2.7.4
 pypans==0.0.7
 PyYAML==5.4
 readme-renderer==25.0
