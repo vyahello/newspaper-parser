@@ -20,16 +20,20 @@ _**Note**: please take into account that it is built for demo purpose but not fo
 
 ## Tools
 
-- python 3.6 | 3.7 | 3.8
+### Production
+
+- python 3.6, 3.7, 3.8
 - [flask](https://flask.palletsprojects.com)
+
+### Development
+
 - [travis](https://travis-ci.org/) CI
-- code analysis
-  - [pytest](https://pypi.org/project/pytest/)
-  - [black](https://black.readthedocs.io/en/stable/)
-  - [mypy](http://mypy.readthedocs.io/en/latest)
-  - [pylint](https://www.pylint.org/)
-  - [flake8](http://flake8.pycqa.org/en/latest/)
-  - [pydocstyle](https://github.com/PyCQA/pydocstyle)
+- [pytest](https://pypi.org/project/pytest/)
+- [black](https://black.readthedocs.io/en/stable/)
+- [mypy](http://mypy.readthedocs.io/en/latest)
+- [pylint](https://www.pylint.org/)
+- [flake8](http://flake8.pycqa.org/en/latest/)
+- [pydocstyle](https://github.com/PyCQA/pydocstyle)
 
 ## Usage
 
