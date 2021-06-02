@@ -19,7 +19,7 @@ termcolor==1.1.0
 tqdm==4.45.0
 twine==3.1.1
 urequest==0.0.2
-urllib3==1.25.8
+urllib3==1.26.5
 uyaml==0.0.3
 webencodings==0.5.1
 flask==1.1.2
